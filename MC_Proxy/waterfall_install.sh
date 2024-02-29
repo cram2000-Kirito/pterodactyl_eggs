@@ -1,7 +1,9 @@
 #!/bin/bash
 # Waterfall Installation Script
-#
 # Server Files: /mnt/server
+
+# Waterfall Installation
+
 PROJECT=waterfall
 
 apt update
@@ -41,6 +43,8 @@ else
 fi
 
 cd /mnt/server
+mkdir waterfall
+cd waterfall
 
 echo -e "Running curl -o ${SERVER_JARFILE} ${DOWNLOAD_URL}"
 
