@@ -2,6 +2,7 @@
 # ViaProxy Installation Script
 # ViaProxy Installation
 
+cd /mnt/server
 mkdir viaproxy
 cd viaproxy
 
